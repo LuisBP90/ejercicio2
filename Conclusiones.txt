@@ -1,0 +1,5 @@
+CONCLUSIONES
+- Karate es bastante util y facil de usar para automatizar API
+- La forma en la que construí los casos de prueba fue limpia para facil mantenimiento
+- Contiene un reporte al final de la ejecución que permite observar todos los resultados
+- Lo que toma tiempo es la configuración previa como java y gradle
