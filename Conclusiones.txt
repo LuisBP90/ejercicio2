@@ -3,3 +3,15 @@ CONCLUSIONES
 - La forma en la que construí los casos de prueba fue limpia para facil mantenimiento
 - Contiene un reporte al final de la ejecución que permite observar todos los resultados
 - Lo que toma tiempo es la configuración previa como java y gradle
+
+RETO
+- El reto en este ejercicio fue consolidar todos los feature en uno porque tube problemas con el envio de
+parametros y para solventarlo tube que utilizar un json "{petID:#(petID),status:'hold'}" y para hacerlo
+dimanico, dentro del Json envie la variable con estos simbolos "#(variable)" entonces el lado izquierdo de
+los dos puntos representa la llave con la que va a reconocer el feature al que se le llama y el lado
+izquierdo de los dos puntos es el valor. Por otro lado para que la variable se pueda usar dentro del body
+del otro feature se utiliza estos simbolos "${variable}".
+
+RECOMENDACIONES
+- Si tienen algun problema con la ejecución, lo recomendable es borrar las carpetas .gradle, build y
+volver a ejecutar el test entonces automaticamente se deben crear esas carpetas y se ejecuta el test.
